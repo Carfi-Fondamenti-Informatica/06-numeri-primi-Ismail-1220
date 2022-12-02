@@ -1,2 +1,2 @@
-
 bool numeroprimo(int);
+

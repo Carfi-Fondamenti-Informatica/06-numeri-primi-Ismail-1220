@@ -3,7 +3,7 @@
 int main() {
     int h;
     std::cin >> h;
-    if (numeroprimo(h) == 0){
+    if (numeroprimo(h) == 0) {
         std::cout << "numero primo" << std::endl;
     }
     else {

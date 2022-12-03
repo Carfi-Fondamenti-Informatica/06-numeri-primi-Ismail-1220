@@ -1,25 +1,25 @@
-#include<iostream>
+#include <iostream>
 
 #include "lib.h"
 
+using namespace std;
+
 int main() {
 
-    int h;
+    char a;
 
-    std::cin >> h;
+    cin >> a;
 
-    if (numeroprimo(h) == 0) {
+    if(convert(a)){
 
-        std::cout << "numero primo" << std::endl;
+        cout << a << endl;
 
-    }
+    }else{
 
-    else {
-
-        std::cout << "numero non primo" << std::endl;
+        cout << "errore" << endl;
 
     }
 
     return 0;
 
-}    
+} 
